@@ -51,7 +51,7 @@ export async function addSchool(req, res) {
 
         return res.status(201).json({
             status: "success",
-            message: "School added successfully!",
+            message: "School details added successfully!",
             data: {
                 id: result.insertId,
                 name: name.trim(),
